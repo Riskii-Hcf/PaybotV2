@@ -31,11 +31,8 @@ var eb = ["You can help youself right?",
 "Outlook not so good",
 "Very doubtful"];
  
-var h = ["https://simg3.gelbooru.com/images/95/68/9568145f22350f7acfc8efb54d6f694e.jpeg",
-"https://files.yande.re/image/ce8e14c0b8919994e8c57152e3c7b8f6/yande.re%20432859%20censored%20fate_grand_order%20feet%20mash_kyrielight%20naked%20nipples%20pussy%20pussy_juice%20remana.jpg",
-
 bot.on("ready", function() {
-      bot.user.setGame("PayBotV2 Prefix = !" , "https://www.twitch.tv/123silly");
+      bot.user.setGame("PayBot2 Prefix = !" , "https://www.twitch.tv/123silly");
     console.log(`Started bot as: ${bot.user.tag}!`);
 });
  
@@ -127,6 +124,7 @@ if (args[1]) {
     message.reply(`How to use: \n${prefix}searchanime [anime] **NOTICE: DONT USE SPACES, USE - =**`);
 }
 break;
+
         case "kick":
     let modRoles = message.guild.roles.find("name", "Moderator");
         if (args[1]) {
@@ -226,20 +224,6 @@ var mc = new Discord.RichEmbed()
 .setFooter('Latenci')
 message.channel.sendEmbed(mc)
 break;
-		
-    case "marry":
-    let mar = message.mentions.users.first();
-    if (!mar) {
-      message.reply("Please mention a user to marry.");
-    } else {
-    var mare = new Discord.RichEmbed()
-    .setTitle(`New people has been married! :heart_eyes: :heart_eyes: `)
-    .setDescription(`:heart: <@${message.author.id}> is now married with <@${mar.id}>! :wink:`)
-    .setImage(`https://i.ytimg.com/vi/6ytPCSS8_7s/maxresdefault.jpg`)
-    .setColor(0x721487)
-    message.channel.sendEmbed(mare);
-    }
-    break;
 		
 case "clear":
 if (args[1]) {
