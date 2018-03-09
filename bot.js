@@ -109,6 +109,10 @@ break;
 case "ping":
 message.reply(`Pong! ${Math.round(bot.ping)}ms`);
 break;
+
+case "invite":
+message.reply(`Please Invite Me Here!\https://discordapp.com/api/oauth2/authorize?client_id=420323901034201089&permissions=2146958583&scope=bot`);
+break;
 		
 case "say":
     var sayargs = message.content.substring(5).split(" ");
