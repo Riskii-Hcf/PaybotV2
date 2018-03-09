@@ -73,17 +73,16 @@ message.channel.send(emojiList);
 break;
 case "8ball":
 if (args[1]) {
-  message.channel.sendMessage(':8ball: ' + message + '? - ' + eb[Math.floor(Math.random() * eb.length)] + ');
+  message.channel.sendMessage(':8ball: ' + message + '? - `' + eb[Math.floor(Math.random() * eb.length)] + '`');
 } else {
   message.channel.sendMessage("Please provide a question");
 }
-break;
-		
-	case "roast":
+break;	
+case "roast":
 if (args[1]) {
-  message.channel.sendMessage(':fire: ' + ' - ' + r[Math.floor(Math.random() * r.length)] + ');
+  message.channel.sendMessage(':fire: ' + ' - ' + eb[Math.floor(Math.random() * eb.length)] + '');
 } else {
-  message.channel.sendMessage("Please provide a username");
+  message.channel.sendMessage("Please provide a question");
 }
 break;
 
