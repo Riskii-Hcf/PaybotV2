@@ -33,6 +33,10 @@ var eb = ["You can help youself right?",
 
 var r = ["You can help youself right? or You Can't Kid?",
 "I couldn't hear the kid u were talking about because that person's name is SH*T **SPEAK UP**",
+"Your existence is the reason for scientists to rethink the plausibility of evolution",
+"I'm not trash talking, I'm talking to trash",
+"You're an inspiration for birth control",
+"Calling you a retard is a compliment in comparison to how stupid you actually are",
 "Go Kys U Loser Fag"];
  
 bot.on("ready", function() {
