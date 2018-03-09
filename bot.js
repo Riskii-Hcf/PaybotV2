@@ -31,7 +31,7 @@ var eb = ["You can help youself right?",
 "Outlook not so good",
 "Very doubtful"];
 
-var eb = ["You can help youself right? or You Can't Kid?",
+var r = ["You can help youself right? or You Can't Kid?",
 "I couldn't hear u kid **SPEAK UP**",
 "Go Kys U Loser Fag"];
  
