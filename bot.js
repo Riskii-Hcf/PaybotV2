@@ -80,9 +80,9 @@ if (args[1]) {
 break;	
 case "roast":
 if (args[1]) {
-  message.channel.sendMessage(':fire: ' + ' - ' + eb[Math.floor(Math.random() * eb.length)] + '');
+  message.channel.sendMessage(':fire: ' + ' - ' + r[Math.floor(Math.random() * r.length)] + '');
 } else {
-  message.channel.sendMessage("Please provide a question");
+  message.channel.sendMessage("Please provide a UserName Please");
 }
 break;
 
