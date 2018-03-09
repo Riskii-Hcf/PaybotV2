@@ -32,7 +32,7 @@ var eb = ["You can help youself right?",
 "Very doubtful"];
 
 var r = ["You can help youself right? or You Can't Kid?",
-"I couldn't hear u kid **SPEAK UP**",
+"I couldn't hear the kid u were talking about because that person's name is SH*T **SPEAK UP**",
 "Go Kys U Loser Fag"];
  
 bot.on("ready", function() {
