@@ -30,6 +30,10 @@ var eb = ["You can help youself right?",
 "My sources say no",
 "Outlook not so good",
 "Very doubtful"];
+
+var eb = ["You can help youself right? or You Can't Kid?",
+"I couldn't hear u kid **SPEAK UP**",
+"Go Kys U Loser Fag"];
  
 bot.on("ready", function() {
       bot.user.setGame("PayBot2 Prefix = !" , "https://www.twitch.tv/123silly");
@@ -74,6 +78,15 @@ if (args[1]) {
   message.channel.sendMessage("Please provide a question");
 }
 break;
+		
+	case "roast":
+if (args[1]) {
+  message.channel.sendMessage(':8ball: ' + message + '? - `' + r[Math.floor(Math.random() * r.length)] + '`');
+} else {
+  message.channel.sendMessage("Please provide a question");
+}
+break;
+
 case "coinflip":
 var result = Math.floor((Math.random() * 2) + 1);
     if (result === 1) {
